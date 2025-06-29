@@ -2,7 +2,8 @@
 <img src="PenciZonro.png" alt="Btwaf " width="500"/>
 </div>
 
-<h1 align="center">Bloxd</h1>
+<h1 align="center">Bloxd (neoblox version)</h1>
+<p align="center">Bloxd is a public source but the neoblox version is private the owner said me the nword more than 10 times i decided to leak his shitty ass ecs bloxd source  have a good day the reader.</p>
 
 <div align="center">
 
