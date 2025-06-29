@@ -1,0 +1,50 @@
+@page "/auth/discord"
+@model Roblox.Website.Pages.Auth.Discord
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+@section MetaTags {
+    <title>Discord Server</title>
+    <style>
+        .input-padding {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        div.application-form-entry h4 {
+            width: 100%;
+            background: rgb(33, 37, 41);
+            color: #fff;
+            padding: .5rem 1rem;
+        }
+
+        .form-control-dark {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }
+
+        .form-control-dark::placeholder {
+            color: #aaa;
+            opacity: 1;
+        }
+
+        .card-dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12 col-md-6 offset-md-3">
+            <div class="card card-body bg-dark text-light">
+                <h3>Discord</h3>
+                <p>We have a discord server , join today at <span class="fw-bold">https://discord.gg/apmjRddFyb</span>!</p>
+            </div>
+        </div>
+    </div>
+</div>

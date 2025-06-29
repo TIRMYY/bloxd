@@ -1,0 +1,38 @@
+@page "/auth/captcha"
+@model Roblox.Website.Pages.Auth.Captcha
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    Layout = "Shared/_Layout";
+    var userAgent = HttpContextAccessor.HttpContext?.Request.Headers["User-Agent"].ToString();
+    var isBloxDStudio = !string.IsNullOrEmpty(userAgent) && userAgent.Contains("BloxDStudio");
+}
+
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <div class="col-12 col-lg-6 offset-lg-3">
+            <div class="card card-body">
+                @if (isBloxDStudio)
+                {
+                    <!-- Content for BloxD Studio users -->
+                    <h3>Welcome to BloxD Studio</h3>
+                    <p>Click the paper on the top corner to start!</p>
+                }
+                else
+                {
+                    <!-- Default content for other users -->
+                    <h3>Captcha Required</h3>
+                    <p>Please complete the captcha below to gain access to the rest of this website. Sorry for the inconvenience.</p>
+                    <form class="mt-4" method="post">
+                        <div class="h-captcha mt-0 mb-2" data-sitekey="@Model.siteKey" data-theme="light"></div>
+                        <input type="submit" class="btn btn-primary" />
+                        @Html.AntiForgeryToken()
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
