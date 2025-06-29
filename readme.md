@@ -17,7 +17,7 @@ Bloxd is a heavily modified and skidded economy simulator source lmao
 # WARNING
 
 Please do not re-host this to the public. we know it is a source code that can start your own revival but re-hosting is unrecommended for reasons.
-This repository is only created for testing out or understanding the logic of SvelteKit and Node made revivals and how they work.
+This repository is only created for leak this shitty ass revival and how they work.
 If you want to build your own roblox please DON'T MAKE A REVIVAL WITH A SRC BUILD YOUR OWN.
 
 # HOW TO SETUP
