@@ -1,0 +1,12 @@
+{
+    "knex": {
+        "client": "pg",
+        "connection": {
+            "host": "ep-icy-pine-ai1u8w3a-pooler.c-4.us-east-1.aws.neon.tech",
+            "user": "neondb_owner",
+            "password": "npg_KRGHBOT9n3aM",
+            "database": "neondb",
+            "ssl": { "rejectUnauthorized": false }
+        }
+    }
+}
