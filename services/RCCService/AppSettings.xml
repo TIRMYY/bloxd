@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings>
-  <BaseUrl>http://www.neoblx.xyz</BaseUrl>
+  <BaseUrl>http://www.kernal.v6.rocks</BaseUrl>
   <ContentFolder>content</ContentFolder>
   <SilentCrashReport>0</SilentCrashReport>
   <cBQ4U>1</cBQ4U>
@@ -9,3 +9,4 @@
   <IsAnimationAssetUploadEnabled>1</IsAnimationAssetUploadEnabled>
   <IsImageModelAssetUploadEnabled>1</IsImageModelAssetUploadEnabled>
 </Settings>
+
